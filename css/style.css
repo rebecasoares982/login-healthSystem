@@ -72,12 +72,13 @@ h2 {
 
 .half .contents .form-control,
 .half .bg .form-control {
+  background: #e4e4e4;
+  width: 268px;
+  height: 54px;
+  border-radius: 4px;
   border: none;
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  height: 54px;
-  background: #fff;
 }
 
 .half .contents .form-control:active,
@@ -208,7 +209,7 @@ h2 {
 .logo-sos {
   display: flex;
   justify-content: center;
-  
+
 }
 
 /*BOOTSTRAP*/
@@ -241,7 +242,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -588,13 +589,27 @@ pre code {
   overflow-y: scroll
 }
 
-.container {
+/*.container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto
+}*/
+
+.container {
+  background-color: #ffffff;
+  width: 65%;
+  height: 80%;
+  margin-top: 10%;
+  padding-right: 15px;
+  /*padding-left: 15px;*/
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
 }
+
 
 @media (min-width:576px) {
   .container {
@@ -628,7 +643,7 @@ pre code {
   margin-left: auto
 }
 
-.row {
+/*.row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -636,7 +651,15 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px
+}*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 800px;
+  overflow: auto;
 }
+
 
 .no-gutters {
   margin-right: 0;
