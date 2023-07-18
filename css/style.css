@@ -111,11 +111,41 @@ h2 {
   }
 }
 
-@media (min-width: 2560px) {
+@media (min-width: 1600px) and (max-width: 1920px) {
   .half .contents .form-control,
   .half .bg .form-control {
-    width: 100%;
+    width: 90%;
     max-width: 465px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2560px) {
+  .half .contents .form-control,
+  .half .bg .form-control {
+    width: 90%;
+    max-width: 465px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 3000px) and (max-width: 3440px) {
+  .half .contents .form-control,
+  .half .bg .form-control {
+    width: 96%;
+    max-width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 3840px) {
+  .half .contents .form-control,
+  .half .bg .form-control {
+    width: 96%;
+    max-width: 850px;
     margin-right: auto;
     margin-left: auto;
   }
