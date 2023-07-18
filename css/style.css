@@ -124,7 +124,7 @@ h2 {
 @media (min-width: 2000px) and (max-width: 2560px) {
   .half .contents .form-control,
   .half .bg .form-control {
-    width: 90%;
+    width: 95%;
     max-width: 465px;
     margin-right: auto;
     margin-left: auto;
